@@ -1,0 +1,56 @@
+<ion-header>
+  <ion-navbar *navbar> 
+    <ion-title> Radio Player </ion-title> 
+  </ion-navbar> 
+</ion-header>
+
+<ion-content class="home"> 
+    <ion-card>
+        
+      <img src="assets/imgs/radio-net.png"/>
+        
+            <ion-card-content>
+              <ion-card-title>
+                Online Radio
+              </ion-card-title>
+              <p>
+                Lorem Ipsum Dolor Emet bla bla bla bla
+              </p>
+            </ion-card-content>
+        
+            <ion-item>
+              <ion-icon name='musical-notes' item-start style="color: #d03e84"></ion-icon>
+              Played:
+              <ion-badge item-end>9</ion-badge>
+            </ion-item>
+        
+            <ion-item>
+              <ion-icon name='logo-twitter' item-start style="color: #55acee"></ion-icon>
+              Followers
+              <ion-badge item-end>260k</ion-badge>
+            </ion-item>
+        
+    </ion-card>
+
+          <ion-grid>
+              <ion-row>
+                <ion-col col-6>
+                  <button ion-button color="secondary" round (click)="play()"> 
+                    <ion-icon name="play"></ion-icon>
+                  </button> 
+                </ion-col>
+                <ion-col col-6>
+                    <button ion-button color="secondary" round (click)="pause()"> 
+                        <ion-icon name="pause"></ion-icon>
+                    </button> 
+                  </ion-col>
+              </ion-row>            
+          </ion-grid>
+  
+   
+</ion-content>
+
+
+
+
+
